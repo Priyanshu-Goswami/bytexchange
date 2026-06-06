@@ -17,7 +17,7 @@ function AppNavbar() {
     <nav className="navbar navbar-expand-lg navbar-custom">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          <span className="brand-icon">bX</span>
+          <img src="/logo.png" alt="byteXchange" className="brand-logo" />
           <span className="brand-text">
             <span className="brand-name">byte<span className="brand-highlight">X</span>change</span>
             <span className="brand-subtitle">Campus Marketplace</span>

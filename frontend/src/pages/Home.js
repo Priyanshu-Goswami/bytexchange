@@ -8,10 +8,7 @@ function Home() {
     <div className="animate-in">
       {/* Hero Section */}
       <div className="hero-section text-center">
-        <div className="hero-badge">
-          <span className="badge-icon">🎓</span>
-          Your Campus Marketplace
-        </div>
+        <img src="/logo.png" alt="byteXchange" className="hero-logo" />
         <h1>
           Buy & Sell <span className="text-highlight">Campus Essentials</span> with Fellow Students
         </h1>
