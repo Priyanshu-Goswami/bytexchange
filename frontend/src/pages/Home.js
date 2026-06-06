@@ -71,7 +71,7 @@ function Home() {
 
       {/* How It Works */}
       <div className="how-it-works text-center">
-        <h4>How UniKart Works</h4>
+        <h4>How byteXchange Works</h4>
         <div className="row">
           <div className="col-md-4">
             <div className="step-item">
@@ -98,7 +98,7 @@ function Home() {
       </div>
 
       <div className="app-footer">
-        <p>UniKart © 2024 — Built for students, by students.</p>
+        <p>byteXchange © 2024 — Built for students, by students.</p>
       </div>
     </div>
   );

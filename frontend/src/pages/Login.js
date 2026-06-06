@@ -35,7 +35,7 @@ function Login() {
       <div className="auth-card">
         <div className="text-center">
           <h3>Welcome back</h3>
-          <p className="auth-subtitle">Sign in to your UniKart account</p>
+          <p className="auth-subtitle">Sign in to your byteXchange account</p>
         </div>
         {error && <div className="alert alert-danger">{error}</div>}
         <form onSubmit={handleSubmit}>

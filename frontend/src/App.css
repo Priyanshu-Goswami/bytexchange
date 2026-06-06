@@ -1,4 +1,4 @@
-/* ===== UniKart - Professional UI Stylesheet ===== */
+/* ===== byteXchange - Campus Marketplace ===== */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
@@ -71,7 +71,7 @@ body {
 }
 
 .navbar-custom .navbar-brand .brand-icon {
-  background: linear-gradient(135deg, var(--primary), var(--accent));
+  background: linear-gradient(135deg, var(--primary), #7c3aed);
   color: white;
   width: 36px;
   height: 36px;
@@ -79,7 +79,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  transform: rotate(-6deg);
+  box-shadow: 0 3px 10px rgba(99, 102, 241, 0.3);
+}
+
+.navbar-custom .navbar-brand .brand-highlight {
+  color: var(--accent);
+  font-weight: 900;
 }
 
 .navbar-custom .nav-link {
