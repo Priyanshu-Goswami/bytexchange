@@ -79,7 +79,7 @@ body {
   height: 42px;
   object-fit: contain;
   mix-blend-mode: multiply;
-  border-radius: 8px;
+  filter: contrast(1.4) saturate(1.2);
 }
 
 .navbar-custom .navbar-brand .brand-text {
