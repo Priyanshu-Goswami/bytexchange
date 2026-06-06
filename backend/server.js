@@ -22,7 +22,7 @@ app.use('/api/items', itemRoutes);
 
 // Root route
 app.get('/', (req, res) => {
-  res.json({ message: 'byteXchange API is running' });
+  res.json({ message: 'UniKart API is running' });
 });
 
 const PORT = process.env.PORT || 5000;

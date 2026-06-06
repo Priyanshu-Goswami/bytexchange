@@ -40,7 +40,7 @@ function Register() {
       <div className="auth-card">
         <div className="text-center">
           <h3>Create your account</h3>
-          <p className="auth-subtitle">Join byteXchange and start buying or selling today</p>
+          <p className="auth-subtitle">Join UniKart and start buying or selling today</p>
         </div>
         {error && <div className="alert alert-danger">{error}</div>}
         <form onSubmit={handleSubmit}>

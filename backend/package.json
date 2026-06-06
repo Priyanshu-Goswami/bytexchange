@@ -1,7 +1,7 @@
 {
-  "name": "bytexchange-backend",
+  "name": "unikart-backend",
   "version": "1.0.0",
-  "description": "byteXchange - Campus Marketplace Backend API",
+  "description": "UniKart - Campus Marketplace Backend API",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
