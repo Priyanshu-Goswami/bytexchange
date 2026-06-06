@@ -78,8 +78,6 @@ body {
   width: 42px;
   height: 42px;
   object-fit: contain;
-  mix-blend-mode: multiply;
-  filter: contrast(1.4) saturate(1.2);
 }
 
 .navbar-custom .navbar-brand .brand-text {
@@ -181,8 +179,6 @@ body {
   width: 120px;
   height: 120px;
   object-fit: contain;
-  mix-blend-mode: screen;
-  filter: brightness(1.2);
   margin-bottom: 1.5rem;
 }
 
