@@ -17,8 +17,8 @@ function AppNavbar() {
     <nav className="navbar navbar-expand-lg navbar-custom">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          <span className="brand-icon">🛒</span>
-          UniKart
+          <span className="brand-icon">⚡</span>
+          byte<span className="brand-highlight">X</span>change
         </Link>
         <button
           className="navbar-toggler"

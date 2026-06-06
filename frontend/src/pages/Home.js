@@ -8,9 +8,10 @@ function Home() {
     <div className="animate-in">
       {/* Hero Section */}
       <div className="hero-section text-center">
+        <span className="hero-badge">🎓 campus marketplace</span>
         <h1>Buy & Sell on Campus</h1>
         <p className="lead mt-3">
-          The trusted marketplace for students. Find great deals on textbooks, electronics, 
+          The student-run marketplace. Score deals on textbooks, electronics, 
           gaming gear and more — all from your fellow students.
         </p>
         <div className="mt-4 d-flex justify-content-center gap-3 flex-wrap">
@@ -71,7 +72,7 @@ function Home() {
 
       {/* How It Works */}
       <div className="how-it-works text-center">
-        <h4>How UniKart Works</h4>
+        <h4>How byteXchange Works</h4>
         <div className="row">
           <div className="col-md-4">
             <div className="step-item">
@@ -98,7 +99,7 @@ function Home() {
       </div>
 
       <div className="app-footer">
-        <p>UniKart © 2024 — Built for students, by students.</p>
+        <p>byteXchange © 2024 — Built for students, by students.</p>
       </div>
     </div>
   );
