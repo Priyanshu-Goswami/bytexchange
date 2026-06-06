@@ -8,29 +8,57 @@ function Home() {
     <div className="animate-in">
       {/* Hero Section */}
       <div className="hero-section text-center">
-        <h1>Buy & Sell on Campus</h1>
-        <p className="lead mt-3">
-          The trusted marketplace for students. Find great deals on textbooks, electronics, 
-          gaming gear and more — all from your fellow students.
+        <div className="hero-badge">
+          <span className="badge-icon">🎓</span>
+          Your Campus Marketplace
+        </div>
+        <h1>
+          Buy & Sell <span className="text-highlight">Campus Essentials</span> with Fellow Students
+        </h1>
+        <p className="hero-description">
+          The trusted student marketplace. Find great deals on textbooks, electronics, 
+          gaming gear and more — all from verified students on your campus.
         </p>
-        <div className="mt-4 d-flex justify-content-center gap-3 flex-wrap">
-          <Link to="/browse" className="btn btn-hero-primary">
-            Browse Items →
+        <div className="hero-actions">
+          <Link to="/browse" className="btn-hero-primary">
+            Browse Items
           </Link>
           {user ? (
-            <Link to="/post-item" className="btn btn-hero-secondary">
+            <Link to="/post-item" className="btn-hero-secondary">
               Sell Something
             </Link>
           ) : (
-            <Link to="/register" className="btn btn-hero-secondary">
+            <Link to="/register" className="btn-hero-secondary">
               Create Account
             </Link>
           )}
         </div>
+        <div className="hero-stats">
+          <div className="hero-stat">
+            <span className="stat-icon">✓</span>
+            <span><strong>500+</strong> Items Listed</span>
+          </div>
+          <div className="hero-stat">
+            <span className="stat-icon">✓</span>
+            <span><strong>200+</strong> Active Students</span>
+          </div>
+          <div className="hero-stat">
+            <span className="stat-icon">✓</span>
+            <span><strong>6</strong> Categories</span>
+          </div>
+        </div>
       </div>
 
+      {/* Accent Bar */}
+      <div className="accent-bar"></div>
+
       {/* Categories */}
-      <div className="row g-3 mt-2">
+      <div className="section-header mt-5">
+        <span className="section-badge">Browse Categories</span>
+        <h2>Find What <span className="text-highlight">You Need</span></h2>
+        <p>Explore items across popular categories listed by students on campus.</p>
+      </div>
+      <div className="row g-3">
         <div className="col-6 col-md-3">
           <Link to="/browse" className="text-decoration-none">
             <div className="category-card">
@@ -71,7 +99,7 @@ function Home() {
 
       {/* How It Works */}
       <div className="how-it-works text-center">
-        <h4>How byteXchange Works</h4>
+        <h4>How <span className="text-highlight">byteXchange</span> Works</h4>
         <div className="row">
           <div className="col-md-4">
             <div className="step-item">

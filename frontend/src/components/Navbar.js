@@ -17,8 +17,11 @@ function AppNavbar() {
     <nav className="navbar navbar-expand-lg navbar-custom">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          <span className="brand-icon">⚡</span>
-          byte<span className="brand-highlight">X</span>change
+          <span className="brand-icon">bX</span>
+          <span className="brand-text">
+            <span className="brand-name">byte<span className="brand-highlight">X</span>change</span>
+            <span className="brand-subtitle">Campus Marketplace</span>
+          </span>
         </Link>
         <button
           className="navbar-toggler"
